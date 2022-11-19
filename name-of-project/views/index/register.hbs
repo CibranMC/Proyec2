@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{appTitle}}</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body id="indexBody" class="d-flex justify-content-center">
+    <div class="card " style="width: 55rem;">
+        <form action="/login" method="POST">
+            <div class="card-body">
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">your Name</label>
+                    <div class="col-5">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Fist Name">
+                    </div>
+                    <div class="col-5">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Country</label>
+                    <div class="col-4">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">State</label>
+                    <div class="col-4">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-2 col-form-label">Email</label>
+                    <div class="col-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="email@example.com">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-2 col-form-label">Password</label>
+                    <div class="col-10 ">
+                        <input type="password" class="form-control" id="inputPassword3"placeholder="************">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-2 col-form-label">Repeat password</label>
+                    <div class="col-10 ">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="************">
+                    </div>
+                </div>
+                <div class="d-flex flex-row-reverse m-3">
+                    <button type="submit" class="btn btn-outline-primary">register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
